@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://dpuvp0bde864c"]
+
+[ext_resource type="Texture2D" uid="uid://byeqni76ag2w7" path="res://icon.svg" id="1_8sh4d"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ao6d1"]
+size = Vector2(113, 112)
+
+[node name="Pigeon" type="CharacterBody2D" unique_id=277223490]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1301170230]
+position = Vector2(0.5, 0)
+shape = SubResource("RectangleShape2D_ao6d1")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=586874522]
+texture = ExtResource("1_8sh4d")
